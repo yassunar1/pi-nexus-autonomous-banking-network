@@ -15,7 +15,7 @@ API_KEY = "YOUR_API_KEY_HERE"
 # Set mainnet launch parameters
 MAINNET_LAUNCH_DATE = "2024-06-01T00:00:00Z"
 MAINNET_LAUNCH_BLOCK_HEIGHT = 000000
-
+   # semoga aja benar adanya @yas @dzn27
 # Function to get current block height
 def get_current_block_height():
     response = requests.get(f"{API_ENDPOINT}/blocks/latest", headers={"Authorization": f"Bearer {API_KEY}"})
